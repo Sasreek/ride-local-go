@@ -1,53 +1,54 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 40 89% 52%; // Tangerine Orange
-    --foreground: 188 78% 32%; // Teal
+    --background: 40 89% 52%; /* Tangerine Orange */
+    --foreground: 188 78% 32%; /* Teal */
     
-    --card: 40 89% 95%; // Light version of Tangerine Orange
+    --card: 40 89% 95%; /* Light version of Tangerine Orange */
     --card-foreground: 0 0% 0%;
 
-    --primary: 40 89% 52%; // Tangerine Orange
+    --primary: 40 89% 52%; /* Tangerine Orange */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 168 84% 30%; // Teal
+    --secondary: 168 84% 30%; /* Teal */
     --secondary-foreground: 0 0% 100%;
 
-    --accent: 0 0% 99%; // Soft White
-    --accent-foreground: 210 29% 24%; // Dark Text
+    --accent: 0 0% 99%; /* Soft White */
+    --accent-foreground: 210 29% 24%; /* Dark Text */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 188 78% 32%; // Teal
-    --input: 188 78% 32%; // Teal
-    --ring: 40 89% 52%; // Tangerine Orange
+    --border: 188 78% 32%; /* Teal */
+    --input: 188 78% 32%; /* Teal */
+    --ring: 40 89% 52%; /* Tangerine Orange */
 
     --radius: 0.75rem;
   }
 
   .dark {
-    --background: 188 78% 15%; // Dark Teal
-    --foreground: 40 89% 75%; // Lighter Orange
+    --background: 188 78% 15%; /* Dark Teal */
+    --foreground: 40 89% 75%; /* Lighter Orange */
     
-    --card: 188 78% 20%; // Darker Teal
+    --card: 188 78% 20%; /* Darker Teal */
     --card-foreground: 0 0% 100%;
 
-    --primary: 40 89% 52%; // Tangerine Orange
-    --primary-foreground: 188 78% 15%; // Dark Teal
+    --primary: 40 89% 52%; /* Tangerine Orange */
+    --primary-foreground: 188 78% 15%; /* Dark Teal */
 
-    --secondary: 168 84% 20%; // Dark Teal
+    --secondary: 168 84% 20%; /* Dark Teal */
     --secondary-foreground: 0 0% 100%;
 
-    --accent: 0 0% 99%; // Soft White
+    --accent: 0 0% 99%; /* Soft White */
     --accent-foreground: 210 40% 98%;
 
-    --border: 188 78% 25%; // Dark Teal
-    --input: 188 78% 25%; // Dark Teal
-    --ring: 40 89% 52%; // Tangerine Orange
+    --border: 188 78% 25%; /* Dark Teal */
+    --input: 188 78% 25%; /* Dark Teal */
+    --ring: 40 89% 52%; /* Tangerine Orange */
   }
 }
 
