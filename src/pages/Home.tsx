@@ -1,8 +1,7 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/Layout";
-import { Check, Shield, MapPin, User, CarFront } from "lucide-react";
+import { Check, Shield, MapPin, User, CarFront, Info } from "lucide-react";
 
 const Home = () => {
   return (
@@ -24,11 +23,26 @@ const Home = () => {
                     Sign Up Free
                   </Button>
                 </Link>
-                <Link to="/how-it-works">
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto border-white text-white hover:bg-white/10">
-                    How It Works
-                  </Button>
-                </Link>
+                <div className="bg-white/10 p-4 rounded-lg space-y-3">
+                  <div className="flex items-center space-x-3">
+                    <Info className="h-6 w-6 text-white" />
+                    <h3 className="text-lg font-semibold">Why Go Local?</h3>
+                  </div>
+                  <ul className="text-sm space-y-2 pl-9">
+                    <li className="relative">
+                      <span className="absolute -left-6 top-1 text-green-400">✓</span>
+                      Save money on transportation
+                    </li>
+                    <li className="relative">
+                      <span className="absolute -left-6 top-1 text-green-400">✓</span>
+                      Reduce carbon footprint
+                    </li>
+                    <li className="relative">
+                      <span className="absolute -left-6 top-1 text-green-400">✓</span>
+                      Meet fellow students
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="hidden md:block">
