@@ -4,65 +4,50 @@
 
 @layer base {
   :root {
-    --background: 205 70% 60%;
-    --foreground: 210 29% 24%;
+    --background: 40 89% 52%; // Tangerine Orange
+    --foreground: 188 78% 32%; // Teal
+    
+    --card: 40 89% 95%; // Light version of Tangerine Orange
+    --card-foreground: 0 0% 0%;
 
-    --card: 205 70% 98%;
-    --card-foreground: 210 29% 24%;
-
-    --popover: 205 70% 98%;
-    --popover-foreground: 210 29% 24%;
-
-    --primary: 205 70% 60%;
+    --primary: 40 89% 52%; // Tangerine Orange
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 93%;
-    --secondary-foreground: 210 29% 24%;
+    --secondary: 168 84% 30%; // Teal
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 122 39% 49%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 0 0% 99%; // Soft White
+    --accent-foreground: 210 29% 24%; // Dark Text
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 205 70% 60%;
+    --border: 188 78% 32%; // Teal
+    --input: 188 78% 32%; // Teal
+    --ring: 40 89% 52%; // Tangerine Orange
 
     --radius: 0.75rem;
   }
 
   .dark {
-    --background: 210 29% 15%;
-    --foreground: 210 40% 98%;
+    --background: 188 78% 15%; // Dark Teal
+    --foreground: 40 89% 75%; // Lighter Orange
+    
+    --card: 188 78% 20%; // Darker Teal
+    --card-foreground: 0 0% 100%;
 
-    --card: 210 29% 15%;
-    --card-foreground: 210 40% 98%;
+    --primary: 40 89% 52%; // Tangerine Orange
+    --primary-foreground: 188 78% 15%; // Dark Teal
 
-    --popover: 210 29% 15%;
-    --popover-foreground: 210 40% 98%;
+    --secondary: 168 84% 20%; // Dark Teal
+    --secondary-foreground: 0 0% 100%;
 
-    --primary: 205 70% 60%;
-    --primary-foreground: 210 29% 15%;
-
-    --secondary: 210 15% 25%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 122 39% 49%;
+    --accent: 0 0% 99%; // Soft White
     --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 205 70% 60%;
+    --border: 188 78% 25%; // Dark Teal
+    --input: 188 78% 25%; // Dark Teal
+    --ring: 40 89% 52%; // Tangerine Orange
   }
 }
 
